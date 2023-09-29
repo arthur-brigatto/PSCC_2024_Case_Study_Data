@@ -1,5 +1,5 @@
 using Pkg
-Pkg.activate(raw"C:\Users\brigatto\.julia\packages\CompareScenariosGenerators\js7fG")
+Pkg.add(url="https://github.com/psrenergy/CompareScenariosGenerators.jl#ab/PSCC_2024")
 
 using CompareScenariosGenerators
 
@@ -53,8 +53,8 @@ CompareScenariosGenerators.main_evaluation_loop([raw"C:\Users\brigatto\Desktop\R
 CompareScenariosGenerators.main_evaluation_loop([raw"C:\Users\brigatto\Desktop\ResultsRepository\model_StructuralModel_Log\evaluation_config.toml"])
 CompareScenariosGenerators.main_evaluation_loop([raw"C:\Users\brigatto\Desktop\ResultsRepository\model_StructuralModel\evaluation_config.toml"])
 
-# Monthly Mean
-CompareScenariosGenerators.main_evaluation_loop([raw"C:\Users\brigatto\Desktop\ResultsRepository\model_MonthlyMean\evaluation_config.toml"])
+# Monthly median
+CompareScenariosGenerators.main_evaluation_loop([raw"C:\Users\brigatto\Desktop\ResultsRepository\model_MonthlyMedian\evaluation_config.toml"])
 
 # results
 
@@ -76,4 +76,4 @@ CompareScenariosGenerators.main_report_metrics([raw"C:\Users\brigatto\Desktop\Re
                                                 raw"C:\Users\brigatto\Desktop\ResultsRepository\results_SeasonalNaive\metrics.json",
                                                 raw"C:\Users\brigatto\Desktop\ResultsRepository\results_StructuralModel\metrics.json",
                                                 raw"C:\Users\brigatto\Desktop\ResultsRepository\results_StructuralModel_Log\metrics.json",
-                                                raw"C:\Users\brigatto\Desktop\ResultsRepository\results_MonthlyMean\metrics.json"])
+                                                raw"C:\Users\brigatto\Desktop\ResultsRepository\results_MonthlyMedian\metrics.json"])
