@@ -1,0 +1,269 @@
+--------------------------------------------
+Programa para converter os nomes de arquivos 
+de dados utilizados pelo programa NEWAVE
+                 Versao 3.0
+--------------------------------------------
+
+MSG:  O programa sera executado com a opcao de inserir linhas em alguns
+      arquivos textos para evitar erros de leitura.
+MSG:  Conversao do arquivo caso.dat foi feita com sucesso.
+MSG:  Abertura do arquivo caso.dat.
+MSG:  Leitura do nome de arquivo ARQUIVOS.DAT.
+MSG:  O nome de arquivo informado em caso.dat foi modificado para arquivos.dat.
+MSG:  Arquivo em disco renomeado de ARQUIVOS.DAT para arquivos.dat.
+MSG:  Foi inserido um caracter de fim de linha no final do arquivo arquivos.dat.
+MSG:  Conversao do arquivo arquivos.dat foi feita com sucesso.
+MSG:  Abertura do arquivo arquivos.dat.
+MSG:  Leitura da linha  1 do arquivo arquivos.dat.
+MSG:  Tratamento do arquivo DGER.DAT.
+MSG:  O arquivo DGER.DAT devera ser renomeado para dger.dat.
+MSG:  Arquivo em disco renomeado de DGER.DAT para dger.dat.
+MSG:  Conversao do arquivo dger.dat foi feita com sucesso.
+MSG:  Leitura da linha  2 do arquivo arquivos.dat.
+MSG:  Tratamento do arquivo SISTEMA.DAT.
+MSG:  O arquivo SISTEMA.DAT devera ser renomeado para sistema.dat.
+MSG:  Arquivo em disco renomeado de SISTEMA.DAT para sistema.dat.
+MSG:  Conversao do arquivo sistema.dat foi feita com sucesso.
+MSG:  Leitura da linha  3 do arquivo arquivos.dat.
+MSG:  Tratamento do arquivo CONFHD.DAT.
+MSG:  O arquivo CONFHD.DAT devera ser renomeado para confhd.dat.
+MSG:  Arquivo em disco renomeado de CONFHD.DAT para confhd.dat.
+MSG:  Conversao do arquivo confhd.dat foi feita com sucesso.
+MSG:  Leitura da linha  4 do arquivo arquivos.dat.
+MSG:  Tratamento do arquivo MODIF.DAT.
+MSG:  O arquivo MODIF.DAT devera ser renomeado para modif.dat.
+MSG:  Arquivo em disco renomeado de MODIF.DAT para modif.dat.
+MSG:  Foi inserido um caracter de fim de linha no final do arquivo modif.dat.
+MSG:  Conversao do arquivo modif.dat foi feita com sucesso.
+MSG:  Leitura da linha  5 do arquivo arquivos.dat.
+MSG:  Tratamento do arquivo CONFT.DAT.
+MSG:  O arquivo CONFT.DAT devera ser renomeado para conft.dat.
+MSG:  Arquivo em disco renomeado de CONFT.DAT para conft.dat.
+MSG:  Conversao do arquivo conft.dat foi feita com sucesso.
+MSG:  Leitura da linha  6 do arquivo arquivos.dat.
+MSG:  Tratamento do arquivo TERM.DAT.
+MSG:  O arquivo TERM.DAT devera ser renomeado para term.dat.
+MSG:  Arquivo em disco renomeado de TERM.DAT para term.dat.
+MSG:  Conversao do arquivo term.dat foi feita com sucesso.
+MSG:  Leitura da linha  7 do arquivo arquivos.dat.
+MSG:  Tratamento do arquivo CLAST.DAT.
+MSG:  O arquivo CLAST.DAT devera ser renomeado para clast.dat.
+MSG:  Arquivo em disco renomeado de CLAST.DAT para clast.dat.
+MSG:  Foi inserido um caracter de fim de linha no final do arquivo clast.dat.
+MSG:  Conversao do arquivo clast.dat foi feita com sucesso.
+MSG:  Leitura da linha  8 do arquivo arquivos.dat.
+MSG:  Tratamento do arquivo EXPH.DAT.
+MSG:  O arquivo EXPH.DAT devera ser renomeado para exph.dat.
+MSG:  Arquivo em disco renomeado de EXPH.DAT para exph.dat.
+MSG:  Conversao do arquivo exph.dat foi feita com sucesso.
+MSG:  Leitura da linha  9 do arquivo arquivos.dat.
+MSG:  Tratamento do arquivo EXPT.DAT.
+MSG:  O arquivo EXPT.DAT devera ser renomeado para expt.dat.
+MSG:  Arquivo em disco renomeado de EXPT.DAT para expt.dat.
+MSG:  Conversao do arquivo expt.dat foi feita com sucesso.
+MSG:  Leitura da linha 10 do arquivo arquivos.dat.
+MSG:  Tratamento do arquivo PATAMAR.DAT.
+MSG:  O arquivo PATAMAR.DAT devera ser renomeado para patamar.dat.
+MSG:  Arquivo em disco renomeado de PATAMAR.DAT para patamar.dat.
+MSG:  Conversao do arquivo patamar.dat foi feita com sucesso.
+MSG:  Leitura da linha 11 do arquivo arquivos.dat.
+MSG:  Tratamento do arquivo CORTES.DAT.
+MSG:  O arquivo CORTES.DAT devera ser renomeado para cortes.dat.
+MSG:  Leitura da linha 12 do arquivo arquivos.dat.
+MSG:  Tratamento do arquivo CORTESH.DAT.
+MSG:  O arquivo CORTESH.DAT devera ser renomeado para cortesh.dat.
+MSG:  Leitura da linha 13 do arquivo arquivos.dat.
+MSG:  Tratamento do arquivo PMO.DAT.
+MSG:  O arquivo PMO.DAT devera ser renomeado para pmo.dat.
+MSG:  Leitura da linha 14 do arquivo arquivos.dat.
+MSG:  Tratamento do arquivo PARP.DAT.
+MSG:  O arquivo PARP.DAT devera ser renomeado para parp.dat.
+MSG:  Leitura da linha 15 do arquivo arquivos.dat.
+MSG:  Tratamento do arquivo FORWARD.DAT.
+MSG:  O arquivo FORWARD.DAT devera ser renomeado para forward.dat.
+MSG:  Leitura da linha 16 do arquivo arquivos.dat.
+MSG:  Tratamento do arquivo FORWARH.DAT.
+MSG:  O arquivo FORWARH.DAT devera ser renomeado para forwarh.dat.
+MSG:  Leitura da linha 17 do arquivo arquivos.dat.
+MSG:  Tratamento do arquivo SHIST.DAT.
+MSG:  O arquivo SHIST.DAT devera ser renomeado para shist.dat.
+MSG:  Arquivo em disco renomeado de SHIST.DAT para shist.dat.
+MSG:  Conversao do arquivo shist.dat foi feita com sucesso.
+MSG:  Leitura da linha 18 do arquivo arquivos.dat.
+MSG:  Tratamento do arquivo MANUTT.DAT.
+MSG:  O arquivo MANUTT.DAT devera ser renomeado para manutt.dat.
+MSG:  Arquivo em disco renomeado de MANUTT.DAT para manutt.dat.
+MSG:  Foi inserido um caracter de fim de linha no final do arquivo manutt.dat.
+MSG:  Conversao do arquivo manutt.dat foi feita com sucesso.
+MSG:  Leitura da linha 19 do arquivo arquivos.dat.
+MSG:  Tratamento do arquivo NEWDESP.DAT.
+MSG:  O arquivo NEWDESP.DAT devera ser renomeado para newdesp.dat.
+MSG:  Leitura da linha 20 do arquivo arquivos.dat.
+MSG:  Tratamento do arquivo VAZPAST.DAT.
+MSG:  O arquivo VAZPAST.DAT devera ser renomeado para vazpast.dat.
+MSG:  Arquivo em disco renomeado de VAZPAST.DAT para vazpast.dat.
+MSG:  Conversao do arquivo vazpast.dat foi feita com sucesso.
+MSG:  Leitura da linha 21 do arquivo arquivos.dat.
+MSG:  Tratamento do arquivo ITAIPU.DAT.
+MSG:  O arquivo ITAIPU.DAT devera ser renomeado para itaipu.dat.
+MSG:  Leitura da linha 22 do arquivo arquivos.dat.
+MSG:  Tratamento do arquivo BID.DAT.
+MSG:  O arquivo BID.DAT devera ser renomeado para bid.dat.
+MSG:  Leitura da linha 23 do arquivo arquivos.dat.
+MSG:  Tratamento do arquivo C_ADIC.DAT.
+MSG:  O arquivo C_ADIC.DAT devera ser renomeado para c_adic.dat.
+MSG:  Arquivo em disco renomeado de C_ADIC.DAT para c_adic.dat.
+MSG:  Conversao do arquivo c_adic.dat foi feita com sucesso.
+MSG:  Leitura da linha 24 do arquivo arquivos.dat.
+MSG:  Tratamento do arquivo LOSS.DAT.
+MSG:  O arquivo LOSS.DAT devera ser renomeado para loss.dat.
+MSG:  Arquivo em disco renomeado de LOSS.DAT para loss.dat.
+MSG:  Conversao do arquivo loss.dat foi feita com sucesso.
+MSG:  Leitura da linha 25 do arquivo arquivos.dat.
+MSG:  Tratamento do arquivo GTMINPAT.DAT.
+MSG:  O arquivo GTMINPAT.DAT devera ser renomeado para gtminpat.dat.
+MSG:  Arquivo em disco renomeado de GTMINPAT.DAT para gtminpat.dat.
+MSG:  Conversao do arquivo gtminpat.dat foi feita com sucesso.
+MSG:  Leitura da linha 26 do arquivo arquivos.dat.
+MSG:  Tratamento do arquivo ELNINO.DAT.
+MSG:  O arquivo ELNINO.DAT devera ser renomeado para elnino.dat.
+MSG:  Leitura da linha 27 do arquivo arquivos.dat.
+MSG:  Tratamento do arquivo ENSOAUX.DAT.
+MSG:  O arquivo ENSOAUX.DAT devera ser renomeado para ensoaux.dat.
+MSG:  Leitura da linha 28 do arquivo arquivos.dat.
+MSG:  Tratamento do arquivo DSVAGUA.DAT.
+MSG:  O arquivo DSVAGUA.DAT devera ser renomeado para dsvagua.dat.
+MSG:  Arquivo em disco renomeado de DSVAGUA.DAT para dsvagua.dat.
+MSG:  Foi inserido um caracter de fim de linha no final do arquivo dsvagua.dat.
+MSG:  Conversao do arquivo dsvagua.dat foi feita com sucesso.
+MSG:  Leitura da linha 29 do arquivo arquivos.dat.
+MSG:  Tratamento do arquivo PENALID.DAT.
+MSG:  O arquivo PENALID.DAT devera ser renomeado para penalid.dat.
+MSG:  Arquivo em disco renomeado de PENALID.DAT para penalid.dat.
+MSG:  Foi inserido um caracter de fim de linha no final do arquivo penalid.dat.
+MSG:  Conversao do arquivo penalid.dat foi feita com sucesso.
+MSG:  Leitura da linha 30 do arquivo arquivos.dat.
+MSG:  Tratamento do arquivo CURVA.DAT.
+MSG:  O arquivo CURVA.DAT devera ser renomeado para curva.dat.
+MSG:  Arquivo em disco renomeado de CURVA.DAT para curva.dat.
+MSG:  Conversao do arquivo curva.dat foi feita com sucesso.
+MSG:  Leitura da linha 31 do arquivo arquivos.dat.
+MSG:  Tratamento do arquivo AGRINT.DAT.
+MSG:  O arquivo AGRINT.DAT devera ser renomeado para agrint.dat.
+MSG:  Arquivo em disco renomeado de AGRINT.DAT para agrint.dat.
+MSG:  Conversao do arquivo agrint.dat foi feita com sucesso.
+MSG:  Leitura da linha 32 do arquivo arquivos.dat.
+MSG:  Tratamento do arquivo ADTERM.DAT.
+MSG:  O arquivo ADTERM.DAT devera ser renomeado para adterm.dat.
+MSG:  Arquivo em disco renomeado de ADTERM.DAT para adterm.dat.
+MSG:  Conversao do arquivo adterm.dat foi feita com sucesso.
+MSG:  Leitura da linha 33 do arquivo arquivos.dat.
+MSG:  Tratamento do arquivo GHMIN.DAT.
+MSG:  O arquivo GHMIN.DAT devera ser renomeado para ghmin.dat.
+MSG:  Arquivo em disco renomeado de GHMIN.DAT para ghmin.dat.
+MSG:  Conversao do arquivo ghmin.dat foi feita com sucesso.
+MSG:  Leitura da linha 34 do arquivo arquivos.dat.
+MSG:  Tratamento do arquivo SAR.DAT.
+MSG:  O arquivo SAR.DAT devera ser renomeado para sar.dat.
+MSG:  No disco nao existe o arquivo SAR.DAT
+MSG:  Inicio da busca por alguma variacao no nome do arquivo SAR.DAT.
+MSG:  Nao foi encontrada nenhuma variacao no nome do arquivo SAR.DAT.
+MSG:  Leitura da linha 35 do arquivo arquivos.dat.
+MSG:  Tratamento do arquivo CVAR.DAT.
+MSG:  O arquivo CVAR.DAT devera ser renomeado para cvar.dat.
+MSG:  Arquivo em disco renomeado de CVAR.DAT para cvar.dat.
+MSG:  Conversao do arquivo cvar.dat foi feita com sucesso.
+MSG:  Leitura da linha 36 do arquivo arquivos.dat.
+MSG:  Tratamento do arquivo REE.DAT.
+MSG:  O arquivo REE.DAT devera ser renomeado para ree.dat.
+MSG:  Arquivo em disco renomeado de REE.DAT para ree.dat.
+MSG:  Conversao do arquivo ree.dat foi feita com sucesso.
+MSG:  Leitura da linha 37 do arquivo arquivos.dat.
+MSG:  Tratamento do arquivo RE.DAT.
+MSG:  O arquivo RE.DAT devera ser renomeado para re.dat.
+MSG:  Arquivo em disco renomeado de RE.DAT para re.dat.
+MSG:  Conversao do arquivo re.dat foi feita com sucesso.
+MSG:  Leitura da linha 38 do arquivo arquivos.dat.
+MSG:  Tratamento do arquivo tecno.dat.
+MSG:  O arquivo tecno.dat ja esta no padrao Linux.
+MSG:  Leitura da linha 39 do arquivo arquivos.dat.
+MSG:  Tratamento do arquivo abertura.dat.
+MSG:  No disco nao existe o arquivo abertura.dat
+MSG:  Inicio da busca por alguma variacao no nome do arquivo abertura.dat.
+MSG:  Nao foi encontrada nenhuma variacao no nome do arquivo abertura.dat.
+MSG:  Leitura da linha 40 do arquivo arquivos.dat.
+MSG:  Tratamento do arquivo gee.dat.
+MSG:  No disco nao existe o arquivo gee.dat
+MSG:  Inicio da busca por alguma variacao no nome do arquivo gee.dat.
+MSG:  Nao foi encontrada nenhuma variacao no nome do arquivo gee.dat.
+MSG:  Leitura da linha 41 do arquivo arquivos.dat.
+MSG:  Tratamento do arquivo clasgas.dat.
+MSG:  No disco nao existe o arquivo clasgas.dat
+MSG:  Inicio da busca por alguma variacao no nome do arquivo clasgas.dat.
+MSG:  Nao foi encontrada nenhuma variacao no nome do arquivo clasgas.dat.
+MSG:  Fechamento do arquivo arquivos.dat.
+MSG:  Abertura do arquivo arquivos.dat.
+MSG:  Modificacao da linha  1 do arquivo dger.dat.
+MSG:  Modificacao da linha  2 do arquivo sistema.dat.
+MSG:  Modificacao da linha  3 do arquivo confhd.dat.
+MSG:  Modificacao da linha  4 do arquivo modif.dat.
+MSG:  Modificacao da linha  5 do arquivo conft.dat.
+MSG:  Modificacao da linha  6 do arquivo term.dat.
+MSG:  Modificacao da linha  7 do arquivo clast.dat.
+MSG:  Modificacao da linha  8 do arquivo exph.dat.
+MSG:  Modificacao da linha  9 do arquivo expt.dat.
+MSG:  Modificacao da linha 10 do arquivo patamar.dat.
+MSG:  Modificacao da linha 11 do arquivo cortes.dat.
+MSG:  Modificacao da linha 12 do arquivo cortesh.dat.
+MSG:  Modificacao da linha 13 do arquivo pmo.dat.
+MSG:  Modificacao da linha 14 do arquivo parp.dat.
+MSG:  Modificacao da linha 15 do arquivo forward.dat.
+MSG:  Modificacao da linha 16 do arquivo forwarh.dat.
+MSG:  Modificacao da linha 17 do arquivo shist.dat.
+MSG:  Modificacao da linha 18 do arquivo manutt.dat.
+MSG:  Modificacao da linha 19 do arquivo newdesp.dat.
+MSG:  Modificacao da linha 20 do arquivo vazpast.dat.
+MSG:  Modificacao da linha 21 do arquivo itaipu.dat.
+MSG:  Modificacao da linha 22 do arquivo bid.dat.
+MSG:  Modificacao da linha 23 do arquivo c_adic.dat.
+MSG:  Modificacao da linha 24 do arquivo loss.dat.
+MSG:  Modificacao da linha 25 do arquivo gtminpat.dat.
+MSG:  Modificacao da linha 26 do arquivo elnino.dat.
+MSG:  Modificacao da linha 27 do arquivo ensoaux.dat.
+MSG:  Modificacao da linha 28 do arquivo dsvagua.dat.
+MSG:  Modificacao da linha 29 do arquivo penalid.dat.
+MSG:  Modificacao da linha 30 do arquivo curva.dat.
+MSG:  Modificacao da linha 31 do arquivo agrint.dat.
+MSG:  Modificacao da linha 32 do arquivo adterm.dat.
+MSG:  Modificacao da linha 33 do arquivo ghmin.dat.
+MSG:  Modificacao da linha 34 do arquivo sar.dat.
+MSG:  Modificacao da linha 35 do arquivo cvar.dat.
+MSG:  Modificacao da linha 36 do arquivo ree.dat.
+MSG:  Modificacao da linha 37 do arquivo re.dat.
+MSG:  Modificacao da linha 38 do arquivo tecno.dat.
+MSG:  Modificacao da linha 39 do arquivo abertura.dat.
+MSG:  Modificacao da linha 40 do arquivo gee.dat.
+MSG:  Modificacao da linha 41 do arquivo clasgas.dat.
+MSG:  Finalizacao do tratamento dos nomes dos arquivos informados pelo usuario.
+MSG:  Inicio do tratamento dos nomes dos arquivos fixos.
+MSG:  No disco nao existe o arquivo format.tmp
+MSG:  Inicio da busca por alguma variacao no nome do arquivo format.tmp.
+MSG:  O arquivo foi encontrado com o nome FORMAT.TMP.
+MSG:  Arquivo em disco renomeado de FORMAT.TMP para format.tmp.
+MSG:  No disco nao existe o arquivo mensag.tmp
+MSG:  Inicio da busca por alguma variacao no nome do arquivo mensag.tmp.
+MSG:  O arquivo foi encontrado com o nome MENSAG.TMP.
+MSG:  Arquivo em disco renomeado de MENSAG.TMP para mensag.tmp.
+MSG:  No disco nao existe o arquivo hidr.dat
+MSG:  Inicio da busca por alguma variacao no nome do arquivo hidr.dat.
+MSG:  O arquivo foi encontrado com o nome HIDR.DAT.
+MSG:  Arquivo em disco renomeado de HIDR.DAT para hidr.dat.
+MSG:  No disco nao existe o arquivo postos.dat
+MSG:  Inicio da busca por alguma variacao no nome do arquivo postos.dat.
+MSG:  O arquivo foi encontrado com o nome POSTOS.DAT.
+MSG:  Arquivo em disco renomeado de POSTOS.DAT para postos.dat.
+MSG:  No disco nao existe o arquivo vazoes.dat
+MSG:  Inicio da busca por alguma variacao no nome do arquivo vazoes.dat.
+MSG:  O arquivo foi encontrado com o nome VAZOES.DAT.
+MSG:  Arquivo em disco renomeado de VAZOES.DAT para vazoes.dat.
+MSG:  Finalizacao do tratamento dos nomes dos arquivos fixos.

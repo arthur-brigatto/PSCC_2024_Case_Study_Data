@@ -1,0 +1,21 @@
+Programa Newave                                                        Versao 28.0.3            
+Caso: PMO JUNHO - 2022 - Niveis para 28/05 NW Versao 28                               
+Data: 01-06-2022                                                       Hora: 17h 49min 17.926sec 
+Numero de Processos:    6 (    1 no(s) )                               Sinalizadores de Execucao: F F F F F ( Ger Ext/Com 2 Niv/Arm Loc/ENA Mem/Cor Mem )
+
+Configuracao dos Nos/Processos: No    1 ( valladolid ): Todos
+
+Tipo de Execucao: Politica e Simulacao Final   
+Politica - Periodos:     0  60  60 ( Pre/Estudo/Pos )                  Simulacao Final - Periodos:     0  60   0 ( Pre/Estudo/Pos )
+           Series:     200                                                               Series:    2000         ( Sinteticas )
+           Aberturas:   20
+           Iteracoes:    1   1     ( Min/Max )
+
+                    RELATORIO DE CONVERGENCIA
+   X----X----------------------X----------------------X----------------------X----------------------X--------------------X--------------------X--------------------X--------------------X----------------------X
+    ITER               LIMITE                 ZINF                  LIMITE                  ZSUP               DZINF              DZINF                 DZINF         DZINF-PASSO-REAM           ZSUP
+                      INFERIOR                                     SUPERIOR                                     (%)             (%DMAXCF)             (%MAXCF)               (%)
+   X----X----------------------X----------------------X----------------------X----------------------X--------------------X--------------------X--------------------X--------------------X----------------------X
+      1                11338.82                3175.29               15279.10               13308.96                                                                                                                  000h08min11.000s
+      1                10719.92                3175.29               15898.00               13308.96                                                                                                                   (99%)
+      1                10007.93                3175.29               13948.21               11978.07          -                              -                    -                    -              11978.07    
