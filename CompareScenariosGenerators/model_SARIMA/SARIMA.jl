@@ -15,7 +15,7 @@ last_date = df[end,1]
 
 ts_names = names(df)[2:end]
 
-past_data = Matrix(df[:,2:end])
+past_data = log.(Matrix(df[:,2:end]))
 
 R"require(forecast)"
 
@@ -27,9 +27,9 @@ for i in 1:size(past_data)[2]
     R"set.seed(123)"
     for s in 1:num_scenarios
         if num_steps_ahead > 1
-            forecasts[:, i, s] = rcopy(R"as.vector(simulate(model, $num_steps_ahead))")
+            forecasts[:, i, s] = exp.(rcopy(R"as.vector(simulate(model, $num_steps_ahead))"))
         else
-            forecasts[1, i, s] = rcopy(R"as.vector(simulate(model, $num_steps_ahead))")
+            forecasts[1, i, s] = exp.(rcopy(R"as.vector(simulate(model, $num_steps_ahead))"))
         end
     end
 end

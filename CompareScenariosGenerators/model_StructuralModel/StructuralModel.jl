@@ -18,10 +18,10 @@ past_data = Matrix(df[:,2:end])
 
 forecasts = zeros(num_steps_ahead, size(past_data)[2], num_scenarios)
 for i in 1:size(past_data)[2]
-    model = BasicStructural(past_data[:, i]./10000, 12)        
+    model = BasicStructural(log.(past_data[:, i]), 12)        
     StateSpaceModels.fit!(model)
     Random.seed!(123)
-    forecasts[:,i, :] = simulate_scenarios(model, num_steps_ahead, num_scenarios) .* 10000
+    forecasts[:,i, :] = exp.(simulate_scenarios(model, num_steps_ahead, num_scenarios))
 end
 
 # Write results

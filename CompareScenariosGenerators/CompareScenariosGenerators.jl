@@ -1,5 +1,5 @@
 using Pkg
-Pkg.add(url="https://github.com/psrenergy/CompareScenariosGenerators.jl#ab/PSCC_2024")
+Pkg.add(url="https://github.com/psrenergy/CompareScenariosGenerators.jl")
 
 using CompareScenariosGenerators
 
@@ -43,14 +43,12 @@ CompareScenariosGenerators.main_evaluation_loop([raw"C:\Users\brigatto\Desktop\R
 CompareScenariosGenerators.main_evaluation_loop([raw"C:\Users\brigatto\Desktop\ResultsRepository\model_PARp-A_R_10\evaluation_config.toml"])
 
 # SARIMA
-CompareScenariosGenerators.main_evaluation_loop([raw"C:\Users\brigatto\Desktop\ResultsRepository\model_SARIMA_Log\evaluation_config.toml"])
 CompareScenariosGenerators.main_evaluation_loop([raw"C:\Users\brigatto\Desktop\ResultsRepository\model_SARIMA\evaluation_config.toml"])
 
 # SeasonalNaive
 CompareScenariosGenerators.main_evaluation_loop([raw"C:\Users\brigatto\Desktop\ResultsRepository\model_SeasonalNaive\evaluation_config.toml"])
 
 # Structural Model
-CompareScenariosGenerators.main_evaluation_loop([raw"C:\Users\brigatto\Desktop\ResultsRepository\model_StructuralModel_Log\evaluation_config.toml"])
 CompareScenariosGenerators.main_evaluation_loop([raw"C:\Users\brigatto\Desktop\ResultsRepository\model_StructuralModel\evaluation_config.toml"])
 
 # Monthly median
@@ -72,8 +70,6 @@ CompareScenariosGenerators.main_report_metrics([raw"C:\Users\brigatto\Desktop\Re
                                                 raw"C:\Users\brigatto\Desktop\ResultsRepository\results_PARp-A_R_3\metrics.json",
                                                 raw"C:\Users\brigatto\Desktop\ResultsRepository\results_PARp-A_R_10\metrics.json",
                                                 raw"C:\Users\brigatto\Desktop\ResultsRepository\results_SARIMA\metrics.json",
-                                                raw"C:\Users\brigatto\Desktop\ResultsRepository\results_SARIMA_Log\metrics.json",
                                                 raw"C:\Users\brigatto\Desktop\ResultsRepository\results_SeasonalNaive\metrics.json",
                                                 raw"C:\Users\brigatto\Desktop\ResultsRepository\results_StructuralModel\metrics.json",
-                                                raw"C:\Users\brigatto\Desktop\ResultsRepository\results_StructuralModel_Log\metrics.json",
                                                 raw"C:\Users\brigatto\Desktop\ResultsRepository\results_MonthlyMedian\metrics.json"])
