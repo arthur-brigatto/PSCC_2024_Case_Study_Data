@@ -1,1 +1,0 @@
-Model execution time : 376.5118062 seconds
