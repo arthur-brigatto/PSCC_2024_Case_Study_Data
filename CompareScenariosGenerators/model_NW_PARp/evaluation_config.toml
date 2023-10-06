@@ -3,6 +3,6 @@ num_steps_ahead = 24
 num_scenarios = 2000
 num_windows = 152
 fixed_forecast_window_size = false
-model_executable_path = "C:\\Users\\brigatto\\Documents\\GitHub\\PSCC_2024_Case_Study_Data\\CompareScenariosGenerators\\NW.bat"
+model_executable_path = "C:\\Users\\brigatto\\Documents\\GitHub\\PSCC_2024_Case_Study_Data\\CompareScenariosGenerators\\model_NW_PARp\\NW.bat"
 model_name = "NW_PARp"
 plot_all_scenarios_windows = false
